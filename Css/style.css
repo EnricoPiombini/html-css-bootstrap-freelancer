@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 
+
 .navbar {
     background-color: #2C3E50;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     color: white;
     font-family: 'Poppins', sans-serif;
 
@@ -35,10 +37,11 @@
 .card-body-style {
     width: 150%;
     text-align: center;
-   
+
 
 }
-.role{
+
+.role {
     justify-content: center;
 }
 
@@ -52,13 +55,46 @@
 
 .line {
     height: 5px;
-    background-color:white;
     width: 25%;
     border-radius: 1rem;
 }
 
-.star{
-    color: white;
+.l-white {
+    background-color: white;
+}
+
+.l-blue {
+    background-color: #2C3E50;
+    height: 5px;
+    width: 125px;
+    border-radius: 1rem;
+}
+
+.icon {
+   
     padding: 1rem;
+
+}
+
+.icon-white{
+    color: white;
+}
+
+.icon-blue{
+    color: #2C3E50;
+}
+
+.graphic-2 {
+    display: flex;
+    align-items: center;
+}
+
+.card-2 {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    color: #2C3E50;
+    padding: 3rem;
     
+
 }
