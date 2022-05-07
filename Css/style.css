@@ -116,15 +116,10 @@
 
 .white{
     color: white;
-    border: none;
+    border-color: white;
 }
 
 .row-j-center{
     justify-content: center;
    
-}
-
-.download{
-    border: none;
-
 }
