@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-
+.container{
+    max-width: 1200px;
+}
 
 .navbar {
     background-color: #2C3E50;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:baseline;
     color: white;
     font-family: 'Poppins', sans-serif;
-
-
 }
 
 .link {
@@ -23,7 +23,6 @@
 }
 
 .card-style {
-    margin: 0 auto;
     align-items: center;
     background-color: #1ABC9C;
     border: none;
@@ -61,6 +60,9 @@
 
 .l-white {
     background-color: white;
+    height:5px ;
+    width: 125px;
+    border-radius: 1rem;
 }
 
 .l-blue {
@@ -71,16 +73,16 @@
 }
 
 .icon {
-   
+
     padding: 1rem;
 
 }
 
-.icon-white{
+.icon-white {
     color: white;
 }
 
-.icon-blue{
+.icon-blue {
     color: #2C3E50;
 }
 
@@ -94,7 +96,35 @@
     flex-direction: column;
     display: flex;
     color: #2C3E50;
-    padding: 3rem;
-    
+    padding: 2rem 1rem;
+
+
+}
+
+.title-white{
+    color: white;
+    margin-bottom: -50px;
+
+}
+
+.section{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+
+}
+
+.white{
+    color: white;
+    border: none;
+}
+
+.row-j-center{
+    justify-content: center;
+   
+}
+
+.download{
+    border: none;
 
 }
