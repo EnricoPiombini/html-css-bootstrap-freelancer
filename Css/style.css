@@ -8,6 +8,7 @@
     align-items:baseline;
     color: white;
     font-family: 'Poppins', sans-serif;
+   
 }
 
 .link {
@@ -71,7 +72,6 @@
 .icon {
 
     padding: .5rem;
-
 }
 
 .icon-white {
@@ -104,9 +104,7 @@
 }
 
 .section{
-    padding: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
 
 }
@@ -114,11 +112,6 @@
 .white{
     color: white;
     border-color: white;
-}
-
-.row-j-center{
-    justify-content: center;
-   
 }
 
 .section-contacts{
@@ -129,4 +122,18 @@
     border: none;
     background-color: #2C3E50;
     color: white;
+}
+
+.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .form-floating > .form-control{
+
+    height:3rem;
+    line-height: 1.25;
+    padding: 1rem 0;
+    
 }
