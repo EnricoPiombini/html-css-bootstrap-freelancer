@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-.container{
-    max-width: 1200px;
-}
 
 .navbar {
     background-color: #2C3E50;
@@ -22,6 +19,11 @@
     background-color: #1ABC9C;
 }
 
+.bg-blue{
+   background-color: #2C3E50
+
+}
+
 .card-style {
     align-items: center;
     background-color: #1ABC9C;
@@ -29,25 +31,19 @@
     color: white;
 }
 
-.w-60 {
-    width: 60%;
-}
 
 .card-body-style {
-    width: 150%;
+    width: 140%;
     text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
 
-
-}
-
-.role {
-    justify-content: center;
-}
 
 .graphic {
     display: flex;
     position: relative;
-    right: -85px;
     align-items: center;
     padding: 1rem;
 }
@@ -74,7 +70,7 @@
 
 .icon {
 
-    padding: 1rem;
+    padding: .5rem;
 
 }
 
@@ -108,8 +104,9 @@
 }
 
 .section{
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     padding-bottom: 2rem;
 
 }
@@ -122,4 +119,14 @@
 .row-j-center{
     justify-content: center;
    
+}
+
+.section-contacts{
+    text-align: center;
+}
+
+.card-blue{
+    border: none;
+    background-color: #2C3E50;
+    color: white;
 }
